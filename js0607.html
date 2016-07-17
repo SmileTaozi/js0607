@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    /*var o={
+     "1p":"hello world",
+     "w h":"hello world",
+     "p+q":"hello world"
+     };
+     var obj={
+     for:"hello",
+     class:"hello",
+     1e-2:true,
+     0.23:true
+     };
+     delete obj.for;
+     //  console.log(Object.keys(obj));
+
+     var a={
+     p:function(x){
+     return 2*x;
+     }
+     };
+     var o1={
+     m1:function m1(){},
+     m2:function (){}
+     };
+     var o2={
+     a:1,
+     b:2,
+     c:3
+     };
+     for(i in o2){
+     console.log (o2[i]);
+     }*/
+
+    /*var p1={};
+     var p2=new Object();
+     var p3=Object.create(null);
+     var o2={
+     p:"hello",
+     0.7:true
+     };
+     o2.p;
+     o2["p"];
+     o2[0.7];
+     console.log(o2[0.7]);*/
+    /*  var p1={
+
+     };
+     //    p1.p="abc";
+     p1["p"]="abc";
+     console.log(p1.p);*/
+
+    var people={
+        name:"cc",
+        age:24,
+        p1:10,
+        p2:20,
+    };
+    console.log(people.p1)
+    console.log(people.p2)
+    with(people){
+        p1=100;
+        p2=200;
+    }
+    console.log(people.p1)
+    console.log(people.p2)
+
+</script>
+
+</body>
+</html>
